@@ -1,4 +1,4 @@
-# KENJO CHALLENGE | Backend
+# CHALLENGE | Backend
 
 <div>
     <img alt="Static Badge" src="https://img.shields.io/badge/Node.js-18.14.2-%23339933?style=flat-square&logo=nodedotjs">
@@ -12,9 +12,7 @@
 
 <br>
 
-The Kenjo Challenge API is a music album database that provides access to a collection of music albums.
-
-Below, you will find all the information related to the Back-end of our application. If you want to check the Front-end repository, [click here](https://github.com/dreweloper/kenjo-challenge-frontend).
+The Challenge is an API that provides access to a database collection of music albums.
 
 ---
 
@@ -23,13 +21,13 @@ Below, you will find all the information related to the Back-end of our applicat
 1. Clone the repository locally.
 
 ```shell
-git clone https://github.com/dreweloper/kenjo-challenge-backend.git
+git clone git@github.com:dreweloper/challenge-backend.git
 ```
 
 2. Change to the project directory.
 
 ```shell
-cd kenjo-challenge-backend
+cd challenge-backend
 ```
 
 3. Install the dependencies using `npm`.
@@ -47,9 +45,9 @@ npm install
 You can also configure a local development URI by setting `MONGODB_URI` and `MONGODB_URI_TEST` to a local MongoDB server URI, like this:
 
 ```javascript
-MONGODB_URI=mongodb://localhost:27017/kenjo-challenge
+MONGODB_URI=mongodb://localhost:27017/challenge-backend
 
-MONGODB_URI_TEST=mongodb://localhost:27017/kenjo-challenge-testing
+MONGODB_URI_TEST=mongodb://localhost:27017/challenge-backend-testing
 ```
 
 This will allow you to work with a local MongoDB database during development.
@@ -78,4 +76,4 @@ See the [documentation in Postman](https://documenter.getpostman.com/view/260925
 
 ## Deployment
 
-The application has been deployed as a web service using a Docker image on the Render platform: https://kenjo-challenge-backend.onrender.com.# challenge-backend
+The application has been deployed as a web service using a Docker image on the Render platform.

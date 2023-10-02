@@ -1,0 +1,36 @@
+{
+  "name": "kenjo-people-cloud-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node index.js",
+    "dev": "NODE_ENV=development nodemon index.js",
+    "test": "NODE_ENV=test jest --silent",
+    "test:watch": "npm run test -- --watch",
+    "docs": "jsdoc -c jsdoc.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://nedose@bitbucket.org/orgos/kenjo-people-cloud-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/orgos/kenjo-people-cloud-challenge#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.17.1",
+    "express-validator": "^7.0.1",
+    "http-status-codes": "^2.1.4",
+    "jsdoc": "^4.0.2",
+    "mongoose": "^7.5.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.17",
+    "@babel/preset-env": "^7.22.15",
+    "babel-jest": "^29.6.4",
+    "jest": "^29.6.4",
+    "supertest": "^6.3.3"
+  }
+}
