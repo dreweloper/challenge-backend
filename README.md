@@ -76,4 +76,4 @@ See the [documentation in Postman](https://documenter.getpostman.com/view/260925
 
 ## Deployment
 
-The application has been deployed as a web service using a Docker image on the Render platform.
+The application has been deployed as a web service using a Docker image on the Render platform: https://challenge-backend-ygf9.onrender.com.
